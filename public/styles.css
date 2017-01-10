@@ -1,2 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,700");
 body {
-  background: black; }
+  background: black;
+  color: white;
+  font-family: "Oswald", sans-serif; }
+
+.header-main-container {
+  border-bottom: 1px solid white; }
+  .header-main-container .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .header-main-container .nav-container .title-splash {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 10px; }
+    .header-main-container .nav-container .nav-links {
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .header-main-container .nav-container .nav-links .local-nav {
+        width: 90%;
+        display: flex;
+        text-transform: uppercase;
+        justify-content: space-around;
+        text-transform: uppercase;
+        letter-spacing: 1px; }
+      .header-main-container .nav-container .nav-links .booking .booking-btn {
+        padding: 0 20px;
+        background: none;
+        border: 1px solid white;
+        letter-spacing: 3px; }
+      .header-main-container .nav-container .nav-links .booking .booking-btn h5 {
+        text-transform: uppercase;
+        letter-spacing: 3px; }
