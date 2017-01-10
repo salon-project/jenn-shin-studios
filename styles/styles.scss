@@ -1,3 +1,51 @@
+// Google fonts import
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+// Font Variables
+$oswald: 'Oswald', sans-serif;
+
 body{
   background: black;
+  color: white;
+  font-family: $oswald;
+}
+
+.header-main-container {
+  border-bottom: 1px solid white;
+  .nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title-splash{
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 10px;
+    }
+    .nav-links{
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .local-nav{
+        width: 90%;
+        display: flex;
+        text-transform: uppercase;
+        justify-content: space-around;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      .booking{
+        .booking-btn{
+          padding: 0 20px;
+          background: none;
+          border: 1px solid white;
+          letter-spacing: 3px;
+        }
+        .booking-btn h5 {
+          text-transform: uppercase;
+          letter-spacing: 3px;
+        }
+      }
+    }
+  }
 }
