@@ -18,8 +18,6 @@ gulp.task('sass', function(){
 gulp.task('js', function(){
   return gulp.src(paths.jsSource)
   .pipe(concat('bundle.js'))
-    .pipe(annotate())
-    // .pipe(uglify()) uncomment when rdy for production
     .pipe(gulp.dest('./public'))
 });
 
