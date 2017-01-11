@@ -1,17 +1,22 @@
 // Google fonts import
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
-
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 // Font Variables
 $oswald: 'Oswald', sans-serif;
-
+$nunitoSans: 'Nunito Sans', sans-serif;
+$ptSans:'PT Sans', sans-serif;
 body{
-  background: black;
+  background: #DADADA;
   color: white;
-  font-family: $oswald;
+  font-family: $ptSans;
 }
+
+a{color: white;}
 
 .header-main-container {
   border-bottom: 1px solid white;
+  margin-bottom: 20px;
   .nav-container{
     display: flex;
     align-items: center;
@@ -47,5 +52,23 @@ body{
         }
       }
     }
+  }
+}
+
+//home view style
+.home {
+  font-family: $ptSans;
+  background: url('../images/marble.jpg');
+  width: 80%;
+  margin: 0 auto;
+  .home-title{
+    color: #DDBF92;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 100px 0;
+  }
+  .home-title-sub{
+    letter-spacing: 12px;
+    color: #ABABAB;
   }
 }

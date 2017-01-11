@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,700");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
 body {
-  background: black;
+  background: #DADADA;
   color: white;
-  font-family: "Oswald", sans-serif; }
+  font-family: "PT Sans", sans-serif; }
+
+a {
+  color: white; }
 
 .header-main-container {
-  border-bottom: 1px solid white; }
+  border-bottom: 1px solid white;
+  margin-bottom: 20px; }
   .header-main-container .nav-container {
     display: flex;
     align-items: center;
@@ -34,3 +40,17 @@ body {
       .header-main-container .nav-container .nav-links .booking .booking-btn h5 {
         text-transform: uppercase;
         letter-spacing: 3px; }
+
+.home {
+  font-family: "PT Sans", sans-serif;
+  background: url("../images/marble.jpg");
+  width: 80%;
+  margin: 0 auto; }
+  .home .home-title {
+    color: #DDBF92;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 100px 0; }
+  .home .home-title-sub {
+    letter-spacing: 12px;
+    color: #ABABAB; }
