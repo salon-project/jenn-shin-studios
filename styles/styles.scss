@@ -29,8 +29,10 @@ a{color: white;}
       text-transform: uppercase;
       letter-spacing: 10px;
     }
+    .nav-links a {
+      margin-right: 10px;
+    }
     .nav-links{
-      width: 50%;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -78,7 +80,7 @@ a{color: white;}
     color: #DDBF92;
     text-align: center;
     letter-spacing: 3px;
-    margin: 100px 0;
+    margin: 10% 0;
   }
   .home-title-sub{
     letter-spacing: 12px;
