@@ -41,6 +41,12 @@ a {
         text-transform: uppercase;
         letter-spacing: 3px; }
 
+.footer-main-container .footer-wrap {
+  text-align: center;
+  border-top: 1px solid white;
+  padding-top: 20px;
+  margin-top: 20px; }
+
 .home {
   font-family: "PT Sans", sans-serif;
   background: url("../images/marble.jpg");

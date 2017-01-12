@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
 // Font Variables
 $oswald: 'Oswald', sans-serif;
 $nunitoSans: 'Nunito Sans', sans-serif;
 $ptSans:'PT Sans', sans-serif;
+
 body{
   background: #DADADA;
   color: white;
@@ -14,6 +16,7 @@ body{
 
 a{color: white;}
 
+// ------ Header Directive Styling ------
 .header-main-container {
   border-bottom: 1px solid white;
   margin-bottom: 20px;
@@ -55,7 +58,17 @@ a{color: white;}
   }
 }
 
-//home view style
+// ------ Footer Directive Styling ------
+.footer-main-container {
+  .footer-wrap{
+    text-align: center;
+    border-top: 1px solid white;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+}
+
+// ------ Home View Styling ------
 .home {
   font-family: $ptSans;
   background: url('../images/marble.jpg');

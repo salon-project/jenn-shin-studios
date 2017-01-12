@@ -11,6 +11,14 @@ angular.module('jennShinApp', ['ui.router'])
 });
 
 angular.module('jennShinApp')
+  .directive('footerDirective', function() {
+    return {
+      restrict: 'E',
+      templateUrl: '../../views/footerTmpl.html'
+    }
+  })
+
+angular.module('jennShinApp')
   .directive('headerDirective', function() {
     return {
       restrict: 'E',
