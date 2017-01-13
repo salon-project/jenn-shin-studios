@@ -4,7 +4,7 @@ var sass = require('gulp-sass');
 var watch = require('gulp-watch');
 
 var paths = {
-  jsSource: ['./js/**/*.js'],
+  jsSource: ['./js/app.js', './js/**/*.js'],
   sassSource: ['./styles/*.scss']
 }
 

@@ -20,6 +20,8 @@ a {
       text-align: center;
       text-transform: uppercase;
       letter-spacing: 10px; }
+    .header-main-container .nav-container .title-splash:hover {
+      cursor: pointer; }
     .header-main-container .nav-container .nav-links a {
       margin-right: 10px; }
     .header-main-container .nav-container .nav-links {
@@ -51,6 +53,9 @@ a {
 .home {
   font-family: "PT Sans", sans-serif;
   background: url("../images/marble.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
   width: 80%;
   margin: 0 auto; }
   .home .home-title {
