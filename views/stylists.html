@@ -1,0 +1,12 @@
+<div class="container stylists-container">
+  <div class="stylists-main-wrap">
+    <div class="stylists-info" ng-repeat="stylist in stylists">
+      <div class="text-center">
+        <img ng-src={{stylist.picture}} class="rounded" style="width:200px">
+      </div>
+
+      <h1>{{stylist.name}}</h1>
+      <h2>{{stylist.description}}</h2>
+    </div>
+  </div>
+</div>

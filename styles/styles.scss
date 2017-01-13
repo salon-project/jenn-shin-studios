@@ -8,6 +8,14 @@ $oswald: 'Oswald', sans-serif;
 $nunitoSans: 'Nunito Sans', sans-serif;
 $ptSans:'PT Sans', sans-serif;
 
+// Mixins
+@mixin background-params {
+  background: url('../images/marble.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
 body{
   background: #DADADA;
   color: white;
@@ -28,6 +36,9 @@ a{color: white;}
       text-align: center;
       text-transform: uppercase;
       letter-spacing: 10px;
+    }
+    .title-splash:hover {
+      cursor: pointer;
     }
     .nav-links a {
       margin-right: 10px;
@@ -73,7 +84,7 @@ a{color: white;}
 // ------ Home View Styling ------
 .home {
   font-family: $ptSans;
-  background: url('../images/marble.jpg');
+  @include background-params;
   width: 80%;
   margin: 0 auto;
   .home-title{
@@ -87,3 +98,5 @@ a{color: white;}
     color: #ABABAB;
   }
 }
+
+// ------ Stylists View Styling ------
