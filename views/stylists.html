@@ -1,12 +1,16 @@
 <div class="container stylists-container">
   <div class="stylists-main-wrap">
+    <h1 class="section-title">Stylists</h1>
     <div class="stylists-info" ng-repeat="stylist in stylists">
-      <div class="text-center">
-        <img ng-src={{stylist.picture}} class="rounded" style="width:200px">
+      <div class="stylist-wrap">
+        <div class="stylist-pic">
+          <img ng-src={{stylist.picture}} class="img-responsive" style="height:200px">
+        </div>
+        <div class="stylist-description">
+          <h2>{{stylist.name}}</h2>
+          <p>{{stylist.description}}</p>
+        </div>
       </div>
-
-      <h1>{{stylist.name}}</h1>
-      <h2>{{stylist.description}}</h2>
     </div>
   </div>
 </div>

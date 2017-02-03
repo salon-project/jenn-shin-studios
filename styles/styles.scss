@@ -8,12 +8,20 @@ $oswald: 'Oswald', sans-serif;
 $nunitoSans: 'Nunito Sans', sans-serif;
 $ptSans:'PT Sans', sans-serif;
 
+// Color Variables
+$gold: #DDBF92;
 // Mixins
 @mixin background-params {
   background: url('../images/marble.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
+}
+
+@mixin section-title{
+  color: $gold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 body{
@@ -24,6 +32,9 @@ body{
 
 a{color: white;}
 
+.section-title{
+  @include section-title;
+}
 // ------ Header Directive Styling ------
 .header-main-container {
   border-bottom: 1px solid white;
@@ -88,7 +99,7 @@ a{color: white;}
   width: 80%;
   margin: 0 auto;
   .home-title{
-    color: #DDBF92;
+    color: $gold;
     text-align: center;
     letter-spacing: 3px;
     margin: 10% 0;
@@ -100,3 +111,39 @@ a{color: white;}
 }
 
 // ------ Stylists View Styling ------
+.stylists-container {
+  @include background-params;
+  width: 80%;
+  margin: 0 auto;
+
+  .stylists-wrap{
+    // float: left;
+    .stylist-pic img{
+      // float: left;
+    }
+  }
+}
+
+// ------ Gallery View Styling ------
+.gallery-container {
+  @include background-params;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+// ------ Info View Styling ------
+.info-container {
+  @include background-params;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+// ------ Services View Styling ------
+.services-container {
+  @include background-params;
+  width: 80%;
+  margin: 0 auto;
+
+}
