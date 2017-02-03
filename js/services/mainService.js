@@ -9,5 +9,6 @@ angular.module('jennShinApp').service('mainService', function(){
       name: "Cara",
       description: "MY NAME IS CARA!!!MY NAME IS CARA!!!MY NAME IS CARA!!!MY NAME IS CARA!!!MY NAME IS CARA!!!MY NAME IS CARA!!!MY NAME IS CARA!!!MY NAME IS CARA!!!MY NAME IS CARA!!!",
       picture: "../images/jenn.png"
-    }]
+    }
+  ]
 })

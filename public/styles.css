@@ -9,6 +9,11 @@ body {
 a {
   color: white; }
 
+.section-title {
+  color: #DDBF92;
+  text-transform: uppercase;
+  letter-spacing: 5px; }
+
 .header-main-container {
   border-bottom: 1px solid white;
   margin-bottom: 20px; }
@@ -66,3 +71,35 @@ a {
   .home .home-title-sub {
     letter-spacing: 12px;
     color: #ABABAB; }
+
+.stylists-container {
+  background: url("../images/marble.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 80%;
+  margin: 0 auto; }
+
+.gallery-container {
+  background: url("../images/marble.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 80%;
+  margin: 0 auto; }
+
+.info-container {
+  background: url("../images/marble.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 80%;
+  margin: 0 auto; }
+
+.services-container {
+  background: url("../images/marble.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 80%;
+  margin: 0 auto; }
